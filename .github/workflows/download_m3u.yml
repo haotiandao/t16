@@ -2,7 +2,7 @@ name: Download m3u
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'  #毎周一0時実施
+    - cron: '45 22 * * *'  #毎周一0時実施
 
 jobs:
   update-list:
